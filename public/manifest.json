@@ -1,0 +1,26 @@
+{
+  "id": "./",
+  "name": "CipherChat P2P",
+  "short_name": "CipherChat",
+  "description": "Защищённый P2P мессенджер без серверов: сквозное шифрование AES-256-GCM, голосовые, фото и файлы.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0e1621",
+  "theme_color": "#17212b",
+  "icons": [
+    {
+      "src": "./icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

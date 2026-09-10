@@ -192,6 +192,22 @@ export const PairingModal: React.FC<PairingModalProps> = ({
           </div>
         </div>
 
+        {/* PWA & APK Installation Guide */}
+        <div className="border-t border-slate-800/80 pt-4 mb-4">
+          <div className="flex items-center gap-1.5 text-xs font-semibold text-emerald-400 mb-2">
+            <Smartphone className="w-4 h-4" />
+            <span>Установка на телефон (PWA / APK):</span>
+          </div>
+          <div className="space-y-2 bg-slate-950/60 border border-slate-800 rounded-xl p-3 text-[11px] text-slate-300">
+            <p>
+              <strong className="text-white">1. Без скачивания файлов (PWA):</strong> В браузере телефона (Chrome/Safari) нажмите меню (три точки) ➔ <strong>«Установить приложение»</strong> или <strong>«На главный экран»</strong>. Появится полноценное приложение на рабочем столе.
+            </p>
+            <p>
+              <strong className="text-white">2. Скачать готовый .APK:</strong> Вставьте ссылку на этот сайт в бесплатный генератор <a href="https://www.pwabuilder.com" target="_blank" rel="noopener noreferrer" className="text-sky-400 underline hover:text-sky-300 font-semibold">PWABuilder.com</a> и нажмите <em>«Package for Android»</em> для загрузки подписанного APK-файла.
+            </p>
+          </div>
+        </div>
+
         {/* Manual Join / Switch Room form */}
         <form onSubmit={handleJoinManual} className="border-t border-slate-800/80 pt-4">
           <label className="block text-xs font-medium text-slate-300 mb-2">
