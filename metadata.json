@@ -1,0 +1,6 @@
+{
+  "name": "CipherChat P2P",
+  "description": "Защищённый P2P мессенджер без серверов: сквозное шифрование AES-256-GCM, голосовые, фото, файлы и самоуничтожение сообщений.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
